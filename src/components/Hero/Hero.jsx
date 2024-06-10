@@ -1,13 +1,14 @@
 import "./Hero.css";
 import homeImg from "../../assets/homeImg.png";
 import dark_arrow from "../../assets/dark-arrow.png"
+import cv from "../../assets/ShaileshCV.pdf";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
     <div className="hero container">
       <div className="hero-text-right">
-          <div style={{fontSize: "26px" }}>Hello Namaste, I am</div>
+          <h2>Hello Namaste, I am</h2>
         <h1>
         <TypeAnimation
       sequence={[
@@ -32,7 +33,7 @@ const Hero = () => {
             and user-friendly digital experience. Based in Kathmandu, Nepal. With
             a background in Computer Science and Information Technology.
         </p>
-        <button className="btn">Download CV <img src ={dark_arrow}  /></button>
+        <button className="btn"><a target="_blank" href={cv}> Download CV <img src ={dark_arrow}  /></a></button>
       </div>
       <div className="hero-left">
         <img src={homeImg} alt="" className="hero-img" />

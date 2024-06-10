@@ -66,6 +66,8 @@
 
 /*------------Media Query-------------*/
 
+
+
 @media (max-width: 940px){
 
     .hero{
@@ -77,23 +79,30 @@
         margin-bottom: 50px;
     }
     .hero-img{
-        width: 80%;
-        margin-left: 50px;
+        width: 50%;
+        margin-left: 100px;
   
     }
-
-    .hero-text h1{
-        font-size: 40px;
+    .hero-text-right h1{
+        font-size: 50px;
     }
+
 }
 @media (max-width: 650px){
-    .hero-text h1{
+    .hero-text-right h1{
         font-size: 30px;
         max-width: 400px;
-        margin: auto;
+    
     }
-    .hero-text p{
+    .hero-text-right p{
         font-size: 14px;
         margin: 15px auto 30px;
+    }
+
+    .hero-text-right .hello-txt{
+        font-size: 6px;
+    }
+    .hero-text-right h2{
+        font-size: 16px;
     }
 }
