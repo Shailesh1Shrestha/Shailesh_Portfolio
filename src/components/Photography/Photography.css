@@ -65,3 +65,20 @@ img{
     opacity: 1;
     z-index: 5;
 }
+
+/*------------Media Query---------------*/
+@media (max-width: 670px){
+    #img-area{
+        height: 380px;
+    }
+}
+@media (max-width: 500px){
+    #img-area{
+        height: 300px;
+    }
+}
+@media (max-width: 395px){
+    #img-area{
+        height: 250px;
+    }
+}
