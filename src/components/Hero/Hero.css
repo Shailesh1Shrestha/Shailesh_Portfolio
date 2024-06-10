@@ -1,0 +1,99 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 53, 58, 0.8),rgba(0, 7, 58, 0.7)), url("../../assets/photo13.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text-right{
+    flex-basis: 56%;
+    
+    max-width: 800px;
+}
+.hero-text-right h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.hero-text-right p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.5;
+}
+.hero-left{
+    flex-basis: 40%;
+    position: relative;
+    order:0;
+}
+.hero-img{
+    width: 100%;
+    background:linear-gradient(to right, rgba(111, 218, 242, 0.4), rgba(6, 39, 255, 0.4));
+    border-radius: 50%  ;
+    -webkit-border-radius: 50%  ;
+    -moz-border-radius: 50%  ;
+    -ms-border-radius: 50%  ;
+    -o-border-radius: 50%  ;
+    border-bottom: 3px solid blue;
+}
+.custom-shape-divider-bottom-1716826558 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1716826558 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 40px;
+}
+
+.custom-shape-divider-bottom-1716826558 .shape-fill {
+    fill: #ffffff;
+}
+
+
+/*------------Media Query-------------*/
+
+@media (max-width: 940px){
+
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .hero-left{
+        flex-basis: 100%;
+        order: 2;
+        margin-bottom: 50px;
+    }
+    .hero-img{
+        width: 80%;
+        margin-left: 50px;
+  
+    }
+
+    .hero-text h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 650px){
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
