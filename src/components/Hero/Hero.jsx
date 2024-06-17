@@ -29,7 +29,7 @@ const Hero = () => {
     />
         </h1>
         <p>
-        A passionate Rect Developer and Front End Developer with a knack for crafting beautiful
+        A passionate React Developer and Front End Developer with a knack for crafting beautiful
             and user-friendly digital experience. Based in Kathmandu, Nepal. With
             a background in Computer Science and Information Technology.
         </p>
